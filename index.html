@@ -513,7 +513,7 @@
         <a href="#" aria-label="인스타그램">
           📸
         </a>
-        <a href="mailto:contact@morisong.com" aria-label="이메일">
+        <a href="mailto:who_u_who@naver.com" aria-label="이메일">
           ✉️
         </a>
       </div>
@@ -952,7 +952,7 @@
       // 📌 교체 포인트: 실제 이메일 주소
       const mailtoBody = `이름: ${formData.name}\n회사/브랜드: ${formData.company}\n이메일: ${formData.email}\n연락처: ${formData.phone}\n문의 유형: ${formData.type}\n\n문의 내용:\n${formData.message}`;
 
-      const mailtoLink = `mailto:contact@morisong.com?subject=[협업문의] ${formData.company} - ${formData.name}&body=${encodeURIComponent(mailtoBody)}`;
+      const mailtoLink = `mailto:who_u_who@naver.com?subject=[협업문의] ${formData.company} - ${formData.name}&body=${encodeURIComponent(mailtoBody)}`;
       window.location.href = mailtoLink;
 
       const btn = contactForm.querySelector('.form-submit');
