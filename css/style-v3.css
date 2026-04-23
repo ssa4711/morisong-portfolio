@@ -1202,12 +1202,15 @@ button {
 /* Polaroid-style gallery items */
 .gallery-item {
   position: relative;
+  display: block;
   background: var(--color-white);
   padding: 10px 10px 40px 10px;
   box-shadow: var(--shadow-photo);
   border-radius: 2px;
   cursor: pointer;
   transition: all var(--transition-slow);
+  text-decoration: none;
+  color: inherit;
 }
 
 .gallery-item:nth-child(1) { transform: rotate(-2deg); }
